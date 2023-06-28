@@ -1,0 +1,107 @@
+.footer{
+    background-color: #0F2041;
+
+}
+.footer-title {
+    text-align: center;
+
+}
+.footer-title h2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-title p{
+    color: rgb(202, 193, 193);
+}
+
+.footer-title p span{
+    color: white;
+}
+
+
+.sub-title{
+    border-top: 1px solid gray;
+}
+
+.sub-title p {
+    color: white;
+    margin-left: 60px;
+    padding: 20px 0;
+}
+
+@media only screen and (min-width:768px) {
+
+.footer{
+    background-color: #0F2041;
+
+}
+.footer-title {
+    text-align: center;
+
+}
+.footer-title h2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-title p{
+    color: rgb(202, 193, 193);
+}
+
+.footer-title p span{
+    color: white;
+}
+
+
+.sub-title{
+    border-top: 1px solid gray;
+}
+
+.sub-title p {
+    color: white;
+    margin-left: 60px;
+    padding: 20px 0;
+}}
+
+@media only screen and (min-width: 1024px) {
+
+.footer{
+    background-color: #0F2041;
+
+}
+.footer-title {
+    text-align: center;
+
+}
+.footer-title h2{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.footer-title p{
+    color: rgb(202, 193, 193);
+}
+
+.footer-title p span{
+    color: white;
+}
+
+
+.sub-title{
+    border-top: 1px solid gray;
+}
+
+.sub-title p {
+    color: white;
+    margin-left: 60px;
+    padding: 20px 0;
+}}
+
+

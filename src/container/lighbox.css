@@ -1,0 +1,102 @@
+.lightbox{
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+.lightbox{
+    display: flex;
+     
+     position: relative;
+    
+     
+}
+.lighbox img{
+   
+    height: 303px !important;
+}
+
+.react-photo-gallery--gallery img{
+    width: 160px !important;
+    height: 160px;
+    margin: 0 !important;
+}
+.react-photo-gallery--gallery div{
+    justify-content: space-between !important;
+}
+
+.zoomlighbox{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+    
+   
+}
+.zoomlighbox-item{
+   width: 160px;
+   height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: 1s;
+   
+}
+.zoomlighbox-item i{
+    font-size: 20px;
+    color: white;
+}
+.zoomlighbox-item:hover{
+    opacity: 1 !important;
+    
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+.lightbox{
+    display: flex;
+     height: 303px;
+     position: relative;
+}
+.lighbox img{
+   
+    height: 303px !important;
+}
+
+.react-photo-gallery--gallery img{
+     width: 303px !important;
+    height: 303px;
+    margin: 0 !important;
+}
+
+.zoomlighbox{
+    position: absolute;
+    display: flex;
+    
+   
+}
+.zoomlighbox-item{
+    width: 303px;
+    height: 303px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: 1s;
+   
+}
+.zoomlighbox-item i{
+    font-size: 20px;
+    color: white;
+}
+.zoomlighbox-item:hover{
+    opacity: 1 !important;
+    
+}
+}
+

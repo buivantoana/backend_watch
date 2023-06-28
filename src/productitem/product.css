@@ -1,0 +1,18 @@
+.container-product-item{
+      width: 400px;
+    margin: 0 auto;
+    }
+@media only screen and (min-width: 768px) {
+    .container-product-item{
+      width: 800px;
+    margin: 0 auto;
+    }
+
+}
+@media only screen and (min-width: 1024px) {
+    .container-product-item{
+       width: 1515px;
+    margin: 0 auto;
+    }
+
+}

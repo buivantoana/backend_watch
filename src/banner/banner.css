@@ -1,0 +1,141 @@
+.banner-slider{
+        width:400px;
+        margin: 0 auto;
+        margin-top: 46px;
+    }
+.click{
+   width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 28%;
+}
+
+.click button{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin: 0 30px;
+    border: none;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 10px;
+    
+}
+
+.click button:hover{
+    background-image: url("../image/z3907233274843_33623cf639a7268494a33099858ba83e.jpg");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    animation: hover .5s forwards;
+
+}
+
+@keyframes hover{
+    from{
+        opacity: 0;
+        transform: scale(.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+     .banner-slider{
+        width:750px;
+        margin: 0 auto;
+        margin-top: 46px;
+    }
+.click{
+   width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 46%;
+}
+
+.click button{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 0 40px;
+    border: none;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+    
+}
+
+.click button:hover{
+    background-image: url("../image/z3907233274843_33623cf639a7268494a33099858ba83e.jpg");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    animation: hover .5s forwards;
+
+}
+
+@keyframes hover{
+    from{
+        opacity: 0;
+        transform: scale(.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .banner-slider{
+        width:1440px;
+        margin: 0 auto;
+        margin-top: 46px;
+    }
+   
+.click{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    
+    top:65%;
+}
+
+.click button{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+    margin: 0 40px;
+    border: none;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 20px;
+    
+}
+
+.click button:hover{
+    background-image: url("../image/z3907233274843_33623cf639a7268494a33099858ba83e.jpg");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    animation: hover .5s forwards;
+
+}
+
+@keyframes hover{
+    from{
+        opacity: 0;
+        transform: scale(.8);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+}

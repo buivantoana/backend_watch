@@ -1,0 +1,81 @@
+.banner-product {
+    height: 200px;
+    width: 400px;
+    background-image: url("../image/breadscrumb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-product-title h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+.banner-product-title span{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+.banner-product {
+    height: 326px;
+    width: 100%;
+    background-image: url("../image/breadscrumb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-product-title h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+.banner-product-title span{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}}
+@media only screen and (min-width: 1024px) {
+.banner-product {
+    height: 326px;
+    width: 100%;
+    background-image: url("../image/breadscrumb.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-product-title h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 15px;
+
+}
+
+.banner-product-title span{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}}

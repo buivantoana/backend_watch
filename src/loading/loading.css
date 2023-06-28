@@ -1,0 +1,72 @@
+.loadingcenter{
+    width: 400px;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    
+   
+    
+}
+
+.loading{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/loading.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+    .loadingcenter{
+    width:800px;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    
+   
+    
+}
+
+.loading{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/loading.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    
+}
+}
+@media only screen and (min-width: 1024px) {
+    .loadingcenter{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+   
+    
+}
+
+.loading{
+    width: 400px;
+    height: 400px;
+    background-image: url("../image/loading.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+}

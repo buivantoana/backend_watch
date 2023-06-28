@@ -1,0 +1,293 @@
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+   
+}
+
+
+.user{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    top: 96px;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+   
+    
+}
+
+.user .cart-right{
+    width: 180px;
+    height: 30%;
+}
+.user .cart-rights{
+    width: 180px;
+    height: 30%;
+}
+.flexuser {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.flexuser button{
+    border: none;
+    background-color: #727272;
+    padding: 2px 10px;
+    color:  orange;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.flexuser button:hover{
+   
+    background-color: orange;
+   
+    color:  white;
+    
+    
+}
+
+.flexuser img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.user .detail-compare{
+    display: block;
+    margin-left: 14px;
+}
+
+.user .detail-compare .detail-compare-witlist{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user .detail-compare .detail-compare-witlist p{
+    margin-right: 15px;
+}
+.user .detail-compare .detail-compare-witlist span{
+    font-size: 13px;
+}
+
+.user-logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-logout button{
+    width: 120px;
+    height: 32px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+   
+}
+
+
+.user{
+    position: fixed;
+    width: 800px;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    top: 96px;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+   
+    
+}
+
+.user .cart-right{
+    width: 180px;
+    height: 30%;
+}
+.user .cart-rights{
+    width: 180px;
+    height: 30%;
+}
+.flexuser {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.flexuser button{
+    border: none;
+    background-color: #727272;
+    padding: 2px 10px;
+    color:  orange;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.flexuser button:hover{
+   
+    background-color: orange;
+   
+    color:  white;
+    
+    
+}
+
+.flexuser img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.user .detail-compare{
+    display: block;
+    margin-left: 14px;
+}
+
+.user .detail-compare .detail-compare-witlist{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user .detail-compare .detail-compare-witlist p{
+    margin-right: 15px;
+}
+.user .detail-compare .detail-compare-witlist span{
+    font-size: 13px;
+}
+
+.user-logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-logout button{
+    width: 120px;
+    height: 32px;
+    font-weight: 700;
+}
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+   
+}
+
+
+.user{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    top: 96px;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+   
+    
+}
+
+.user .cart-right{
+    width: 180px;
+    height: 30%;
+}
+.user .cart-rights{
+    width: 180px;
+    height: 30%;
+}
+.flexuser {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.flexuser button{
+    border: none;
+    background-color: #727272;
+    padding: 2px 10px;
+    color:  orange;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+    
+}
+.flexuser button:hover{
+   
+    background-color: orange;
+   
+    color:  white;
+    
+    
+}
+
+.flexuser img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.user .detail-compare{
+    display: block;
+    margin-left: 14px;
+}
+
+.user .detail-compare .detail-compare-witlist{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.user .detail-compare .detail-compare-witlist p{
+    margin-right: 15px;
+}
+.user .detail-compare .detail-compare-witlist span{
+    font-size: 13px;
+}
+
+.user-logout {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.user-logout button{
+    width: 120px;
+    height: 32px;
+    font-weight: 700;
+}
+}
+

@@ -1,0 +1,300 @@
+.container{
+   width: 400px;
+   margin: 0 auto;
+   overflow: hidden;
+   
+}
+.menu2-ul li{
+    list-style: none;
+    margin-left: 20px;
+    height: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+    width: 360px;
+}
+.header{
+    padding: 10px 0;
+    width: 400px;
+    height: 96px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.logo {
+    width: 100px;
+    height: 65px;
+    background-image: url("../image/HOANGDUY-WATCH-2_free-file.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 30px;
+    background-position-y: 12px;
+}
+.menu{
+    display: none;
+}
+.menu2{
+    display: block;
+}
+.menu2 {
+    position: relative;
+  right: 24px;
+    top: 3px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+   width: 572px;
+  
+}
+
+.menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+  
+}
+.search2{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    z-index: 3;
+}
+.icon{
+    margin: 0 10px;
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+}
+.active{
+    color: orange !important;
+}
+
+.search .icon:last-child{
+    position: relative;
+}
+.search2 .icon:last-child{
+    position: relative;
+}
+.search span{
+  position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    bottom: -7px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    right: -10px;
+    color: white;
+}
+.search2 span{
+  position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    bottom: -7px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    right: -10px;
+    color: white;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.container{
+   max-width: 1024px;
+    margin:  0 auto;
+    width: 800px;
+}
+.header{
+    padding: 10px 0;
+    width: 800px;
+    height: 96px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.logo {
+    width: 100px;
+    height: 65px;
+    background-image: url("../image/HOANGDUY-WATCH-2_free-file.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 30px;
+    background-position-y: 12px;
+}
+
+.menu ul{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    width: 530px;
+
+}
+.search2{
+    display: none;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    display: block;
+}
+.menu2{
+    display: none;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+   
+}
+.icon{
+    margin: 0 10px;
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+}
+.active{
+    color: orange !important;
+}
+
+.search .icon:last-child{
+    position: relative;
+}
+.search span{
+  position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    bottom: -7px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    right: -10px;
+    color: white;
+}}
+
+
+@media only screen and (min-width: 1024px) {
+.container{
+    max-width: 1515px;
+    margin: 0;
+    width: 1515px;
+}
+.header{
+    padding: 10px 0;
+    width: 1515px;
+    height: 96px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.logo {
+    width: 123px;
+    height: 65px;
+    background-image: url("../image/HOANGDUY-WATCH-2_free-file.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 30px;
+     background-position-y: 0;
+}
+.search2{
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     font-size: 15px;
+    width: 702px;
+}
+.menu{
+    display: block;
+}
+.menu2{
+    display: none;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.icon{
+    margin: 0 10px;
+    font-size: 16px;
+    color: rgb(87, 85, 85);
+}
+.active{
+    color: orange !important;
+}
+
+.search .icon:last-child{
+    position: relative;
+}
+.search span{
+  position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    bottom: -7px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    right: -10px;
+    color: white;
+}}
+

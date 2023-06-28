@@ -1,0 +1,27 @@
+
+
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+  text-decoration: none;
+
+  
+  
+}
+a{
+  color: black;
+}
+body {
+  margin: 0;
+ font-family: 'Barlow Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f2f5;
+  color: #0f2041;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

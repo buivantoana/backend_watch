@@ -1,0 +1,300 @@
+
+ .hide5{
+    background-image: url("../image/z3931086249920_d4465f29be2237555878863fa46c97ae.jpeg") !important;
+ }
+ .hide6{
+    
+      background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg") !important;
+ }
+ .slider3{
+   
+            position: relative;
+            top: 50px;
+            width: 400px;
+            height: 252px;
+            overflow: hidden;
+           background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg");
+              background-repeat: no-repeat;
+              background-size: 400px 252px;
+          
+        }
+          .child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+            position: absolute;
+            width: 50px;
+            height:252px;
+            
+            background-image: url("../image/anh-dong-ho-chua-dung-he-mat-troi_113837989.jpg");
+    background-repeat: no-repeat;
+    background-size: 400px 252px;
+    background-position: 0% 0%;
+    animation: listitem1 2s forwards;
+
+            
+        }
+         .child2{
+            left:  50px;
+             background-position: 14.3% 0%;
+         animation: listitem2 2s forwards;
+        }
+        .child3{
+             left: 100px;
+              background-position: 28.6% 0%;
+        
+        }
+        .child4{
+             background-position: 42.9% 0%;
+           left:150px;
+         animation: listitem2 2s forwards;
+        }
+        .child5{
+
+             background-position: 57.2% 0%;
+           left: 200px;
+        
+        }
+        .child6{
+            background-position: 71.5% 0%;
+            left: 250px;
+         animation: listitem2 2s forwards;
+        }
+        .child7{
+             background-position:85.8% 0%;
+            left:300px;
+        
+        }
+        
+        .child8{
+             background-position:100.1% 0%;
+             left: 350px;
+             animation: listitem2 2s forwards;
+        } 
+        
+
+        @keyframes listitem1{
+            from{
+                opacity: 0;
+                height:  0;
+                top: 0;
+
+            }
+            to{
+                opacity: 1;
+                height: 252px;
+                 top: 0;
+
+            }
+        }
+          @keyframes listitem2{
+            from{
+               
+                height:  0;
+                bottom: 0;
+
+            }
+            to{
+               
+                height: 252px;
+                 bottom: 0;
+            }
+        }
+    
+ @media only screen and (min-width: 768px) {
+ .hide5{
+    background-image: url("../image/z3931086249920_d4465f29be2237555878863fa46c97ae.jpeg") !important;
+ }
+ .hide6{
+    
+      background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg") !important;
+ }
+ .slider3{
+   
+            position: relative;
+            top: 50px;
+            width: 750px;
+            height: 450px;
+            overflow: hidden;
+           background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg");
+              background-repeat: no-repeat;
+              background-size: 750px 450px;
+          
+        }
+          .child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+            position: absolute;
+            width: 93.75px;
+            height:450px;
+            
+            background-image: url("../image/anh-dong-ho-chua-dung-he-mat-troi_113837989.jpg");
+    background-repeat: no-repeat;
+    background-size: 750px 450px;
+    background-position: 0% 0%;
+    animation: listitem1 2s forwards;
+
+            
+        }
+         .child2{
+            left:  93.75px;
+             background-position: 14.3% 0%;
+         animation: listitem2 2s forwards;
+        }
+        .child3{
+             left: 187.5px;
+              background-position: 28.6% 0%;
+        
+        }
+        .child4{
+             background-position: 42.9% 0%;
+           left:281.25px;
+         animation: listitem2 2s forwards;
+        }
+        .child5{
+
+             background-position: 57.2% 0%;
+           left: 375px;
+        
+        }
+        .child6{
+            background-position: 71.5% 0%;
+            left: 468.75px;
+         animation: listitem2 2s forwards;
+        }
+        .child7{
+             background-position:85.8% 0%;
+            left:562.5px;
+        
+        }
+        
+        .child8{
+             background-position:100.1% 0%;
+             left: 656.25px;
+             animation: listitem2 2s forwards;
+        } 
+        
+
+        @keyframes listitem1{
+            from{
+                opacity: 0;
+                height:  0;
+                top: 0;
+
+            }
+            to{
+                opacity: 1;
+                height: 450px;
+                 top: 0;
+
+            }
+        }
+          @keyframes listitem2{
+            from{
+               
+                height:  0;
+                bottom: 0;
+
+            }
+            to{
+               
+                height: 450px;
+                 bottom: 0;
+            }
+        }
+    }
+ 
+ @media only screen and (min-width: 1024px) {
+ .hide5{
+    background-image: url("../image/z3931086249920_d4465f29be2237555878863fa46c97ae.jpeg") !important;
+ }
+ .hide6{
+    
+      background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg") !important;
+ }
+ .slider3{
+            position: relative;
+            top: 50px;
+            width: 1440px;
+            height: 750px;
+            overflow: hidden;
+           background-image: url("../image/z3931071113380_eab5049dd2025c212e04abf5a346b813.jpeg");
+              background-repeat: no-repeat;
+              background-size: 1440px 750px;
+          
+        }
+          .child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+            position: absolute;
+            width: 180px;
+            height:600px;
+            
+            background-image: url("../image/anh-dong-ho-chua-dung-he-mat-troi_113837989.jpg");
+    background-repeat: no-repeat;
+    background-size: 1440px 750px;
+    background-position: 0% 0%;
+    animation: listitem1 2s forwards;
+
+            
+        }
+         .child2{
+            left: 180px;
+             background-position: 14.3% 0%;
+         animation: listitem2 2s forwards;
+        }
+        .child3{
+            left: 360px;
+              background-position: 28.6% 0%;
+        
+        }
+        .child4{
+             background-position: 42.9% 0%;
+            left: 540px;
+         animation: listitem2 2s forwards;
+        }
+        .child5{
+
+             background-position: 57.2% 0%;
+            left: 720px;
+        
+        }
+        .child6{
+            background-position: 71.5% 0%;
+            left: 900px;
+         animation: listitem2 2s forwards;
+        }
+        .child7{
+             background-position:85.8% 0%;
+            left:1080px;
+        
+        }
+        
+        .child8{
+             background-position:100.1% 0%;
+            left: 1260px;
+             animation: listitem2 2s forwards;
+        } 
+        
+
+        @keyframes listitem1{
+            from{
+                opacity: 0;
+                height:  0;
+                top: 0;
+
+            }
+            to{
+                opacity: 1;
+                height: 750px;
+                 top: 0;
+
+            }
+        }
+          @keyframes listitem2{
+            from{
+               
+                height:  0;
+                bottom: 0;
+
+            }
+            to{
+               
+                height: 750px;
+                 bottom: 0;
+            }
+        }
+    }

@@ -1,0 +1,459 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  pointer-events: none;
+   transition: all .5s;
+}
+.closelogin{
+    float: right;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: red;
+}
+.login-list{
+    background: white;
+    width: 440px;
+    height: 440px;
+    text-align: center;
+    overflow: hidden;
+}
+.login-heading{
+    margin-top: 30px;
+
+}
+ .open-login,
+ .open-register{
+    color: rgb(118, 117, 117);
+    font-family: 'Marcellus SC', serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 10px;
+    opacity: .7 ;
+}
+.login-wraper{
+    width: 200%;
+    height: 100%;
+    display: flex;
+}
+.list-menu{
+    width:150px  ;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.dangnhap{
+    width: 409px;
+   
+   
+}
+.dangky{
+    width: 409px;
+   
+}
+.dangnhap-input,
+.dangky-input{
+    width: 300px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+
+}
+.dangnhap-input input,
+.dangky-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+  
+    
+}
+.dangnhap-input input::placeholder,
+.dangky-input input::placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-login{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+
+}
+.login-login li{
+    width: 96px;
+height: 34px;
+list-style: none;
+border: 1px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+}
+.check{
+    display: flex;
+   align-items: center;
+
+}
+.check input{
+    width: 15px;
+    height: 15px;
+}
+.check span{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+
+}
+.lost-password{
+    margin-left: 175px;
+    margin-top:35px;
+   
+}
+.lost-password a{
+ color: orange;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@keyframes tranlate{
+    to{
+        transform: translateX(-400px);
+    }
+}
+@keyframes tranlate1{
+    from{
+        transform: translateX(-350px);
+    }
+}
+.login-active{
+    font-size: 28px;
+    opacity: 1;
+}
+
+.active-open{
+    transition: all .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+@media only screen and (min-width: 768px) {
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  pointer-events: none;
+   transition: all .5s;
+}
+.closelogin{
+    float: right;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: red;
+}
+.login-list{
+    background: white;
+    width: 440px;
+    height: 440px;
+    text-align: center;
+    overflow: hidden;
+}
+.login-heading{
+    margin-top: 30px;
+
+}
+ .open-login,
+ .open-register{
+    color: rgb(118, 117, 117);
+    font-family: 'Marcellus SC', serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 10px;
+    opacity: .7 ;
+}
+.login-wraper{
+    width: 200%;
+    height: 100%;
+    display: flex;
+}
+.list-menu{
+    width:150px  ;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.dangnhap{
+    width: 409px;
+   
+   
+}
+.dangky{
+    width: 409px;
+   
+}
+.dangnhap-input,
+.dangky-input{
+    width: 300px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+
+}
+.dangnhap-input input,
+.dangky-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+  
+    
+}
+.dangnhap-input input::placeholder,
+.dangky-input input::placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-login{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+
+}
+.login-login li{
+    width: 96px;
+height: 34px;
+list-style: none;
+border: 1px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+}
+.check{
+    display: flex;
+   align-items: center;
+
+}
+.check input{
+    width: 15px;
+    height: 15px;
+}
+.check span{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+
+}
+.lost-password{
+    margin-left: 175px;
+    margin-top:35px;
+   
+}
+.lost-password a{
+ color: orange;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@keyframes tranlate{
+    to{
+        transform: translateX(-400px);
+    }
+}
+@keyframes tranlate1{
+    from{
+        transform: translateX(-350px);
+    }
+}
+.login-active{
+    font-size: 28px;
+    opacity: 1;
+}
+
+.active-open{
+    transition: all .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+.login{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,.5);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+  pointer-events: none;
+   transition: all .5s;
+}
+.closelogin{
+    float: right;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: red;
+}
+.login-list{
+    background: white;
+    width: 440px;
+    height: 440px;
+    text-align: center;
+    overflow: hidden;
+}
+.login-heading{
+    margin-top: 30px;
+
+}
+ .open-login,
+ .open-register{
+    color: rgb(118, 117, 117);
+    font-family: 'Marcellus SC', serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 10px;
+    opacity: .7 ;
+}
+.login-wraper{
+    width: 200%;
+    height: 100%;
+    display: flex;
+}
+.list-menu{
+    width:150px  ;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.dangnhap{
+    width: 409px;
+   
+   
+}
+.dangky{
+    width: 409px;
+   
+}
+.dangnhap-input,
+.dangky-input{
+    width: 300px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+    
+
+}
+.dangnhap-input input,
+.dangky-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+  
+    
+}
+.dangnhap-input input::placeholder,
+.dangky-input input::placeholder{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.login-login{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+   
+    align-items: center;
+
+}
+.login-login li{
+    width: 96px;
+height: 34px;
+list-style: none;
+border: 1px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+}
+.check{
+    display: flex;
+   align-items: center;
+
+}
+.check input{
+    width: 15px;
+    height: 15px;
+}
+.check span{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+
+}
+.lost-password{
+    margin-left: 175px;
+    margin-top:35px;
+   
+}
+.lost-password a{
+ color: orange;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+@keyframes tranlate{
+    to{
+        transform: translateX(-400px);
+    }
+}
+@keyframes tranlate1{
+    from{
+        transform: translateX(-350px);
+    }
+}
+.login-active{
+    font-size: 28px;
+    opacity: 1;
+}
+
+.active-open{
+    transition: all .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+}
+

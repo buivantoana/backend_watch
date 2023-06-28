@@ -1,0 +1,691 @@
+.product{
+    width: 400px;
+    margin:  0 auto;
+     margin-top: 40px ;
+    padding-bottom: 50px;
+}
+.product-title{
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+.product-title h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.product-title p{
+    
+   color: gray;
+}
+
+.product-list {
+    display: grid;
+   grid-template-columns: 190px 190px;
+   grid-gap: 20px;
+}
+
+.product-item{
+    width: 190px;
+    background-color: white;
+    height:320px;
+    cursor: pointer;
+   
+}
+.product-item-center{
+     width: 200px;
+     margin: 0 auto;
+    padding-top: 20px;
+     position: relative;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.product-item img{
+    width:160px;
+    height:160px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.product-item-center p{
+    color: rgb(156, 157, 158);
+   font-family: 'Roboto Condensed';
+   margin: 10px 0;
+   font-size: 10px;
+
+}
+.product-item-center h4{
+    font-size: 12px;
+}
+
+.sale{
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.curren-price{
+    text-decoration: none !important;
+    color: orange;
+
+}
+.product-price{
+  overflow: hidden;
+  transition: 2s;
+   animation: beffoprice .5s forwards;
+   margin-top: 15px;
+ 
+}
+.product-item-center:hover  .product-price{
+   animation: setprice .5s forwards;
+   
+}
+
+@keyframes setprice{
+    from{
+        opacity: 1;
+        height: 30px;
+    }
+    to{
+        opacity: 0;
+        height: 0;
+    }
+}
+@keyframes beffoprice{
+    from{
+        opacity: 0;
+        height: 0;
+    }
+    
+    to{
+      opacity: 1;
+        height: 30px;
+    }
+    
+}
+
+.product-price-add{
+   opacity: 0;
+   transition: .5;
+   font-size: 14px;
+   position: relative;
+}
+
+.product-item-center:hover  .product-price-add{
+  opacity: 1;
+   
+}
+
+
+.product-tab{
+    display: flex;
+    transition: 2s;
+}
+.tab1{
+    width: 98px;
+    height: 1px;
+    background-color: black;
+      animation: settabprice .5s forwards;
+   
+    
+}
+
+
+
+
+.product-price-add:hover .tab1
+{
+   
+    animation: tabprice .5s forwards;
+}
+
+@keyframes tabprice{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        width: 0;
+    }
+}
+@keyframes settabprice{
+    from{
+        opacity: 0;
+        width: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.product-icon {
+    position: absolute;
+   right:25px;
+    top: 21px;
+}
+.head,.compare,.parameter{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    opacity: 0;
+}
+.head{
+   animation: setproducticon .9s forwards;
+}
+
+.compare{
+   animation: setproducticon .7s forwards;
+}
+
+.parameter{
+   animation: setproducticon .5s forwards;
+}
+.product-item-center:hover .head{
+    
+    animation: producticon .5s forwards;
+}
+.product-item-center:hover .compare{
+    
+    animation: producticon .7s forwards;
+
+}
+
+.product-item-center:hover .parameter{
+    
+    animation: producticon .9s forwards;
+    
+}
+
+@keyframes producticon{
+   from{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+    to{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+}
+
+@keyframes setproducticon{
+    from{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+    to{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+   
+}
+
+@media only screen and (min-width: 768px) {
+
+.product{
+    max-width: 1266px;
+    margin:  0 auto;
+     margin-top: 40px ;
+    padding-bottom: 50px;
+    width: 800px;
+}
+.product-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.product-title h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.product-title p{
+    
+   color: gray;
+}
+
+.product-list {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 10px;
+}
+
+.product-item{
+    width: 100%;
+    background-color: white;
+    height: 422px;
+    cursor: pointer;
+   
+}
+.product-item-center{
+     width: 230px;
+     margin: 0 auto;
+    padding-top: 20px;
+     position: relative;
+    overflow: hidden;
+   padding-left: 0;
+    padding-right: 0;
+}
+.product-item img{
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.product-item-center p{
+    color: rgb(156, 157, 158);
+   font-family: 'Roboto Condensed';
+   margin: 10px 0;
+   font-size: 12px;
+
+}
+.product-item-center h4 {
+    font-size: 13px;
+}
+
+.sale{
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.curren-price{
+    text-decoration: none !important;
+    color: orange;
+
+}
+.product-price{
+  overflow: hidden;
+  transition: 2s;
+   animation: beffoprice .5s forwards;
+   margin-top: 15px;
+ 
+}
+.product-item-center:hover  .product-price{
+   animation: setprice .5s forwards;
+   
+}
+
+@keyframes setprice{
+    from{
+        opacity: 1;
+        height: 30px;
+    }
+    to{
+        opacity: 0;
+        height: 0;
+    }
+}
+@keyframes beffoprice{
+    from{
+        opacity: 0;
+        height: 0;
+    }
+    
+    to{
+      opacity: 1;
+        height: 30px;
+    }
+    
+}
+
+.product-price-add{
+   opacity: 0;
+   transition: .5;
+   font-size: 14px;
+   position: relative;
+}
+
+.product-item-center:hover  .product-price-add{
+  opacity: 1;
+   
+}
+
+
+.product-tab{
+    display: flex;
+    transition: 2s;
+}
+.tab1{
+    width: 98px;
+    height: 1px;
+    background-color: black;
+      animation: settabprice .5s forwards;
+   
+    
+}
+
+
+
+
+.product-price-add:hover .tab1
+{
+   
+    animation: tabprice .5s forwards;
+}
+
+@keyframes tabprice{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        width: 0;
+    }
+}
+@keyframes settabprice{
+    from{
+        opacity: 0;
+        width: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.product-icon {
+    position: absolute;
+   right:0;
+    top: 21px;
+}
+.head,.compare,.parameter{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    opacity: 0;
+}
+.head{
+   animation: setproducticon .9s forwards;
+}
+
+.compare{
+   animation: setproducticon .7s forwards;
+}
+
+.parameter{
+   animation: setproducticon .5s forwards;
+}
+.product-item-center:hover .head{
+    
+    animation: producticon .5s forwards;
+}
+.product-item-center:hover .compare{
+    
+    animation: producticon .7s forwards;
+
+}
+
+.product-item-center:hover .parameter{
+    
+    animation: producticon .9s forwards;
+    
+}
+
+@keyframes producticon{
+   from{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+    to{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+}
+
+@keyframes setproducticon{
+    from{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+    to{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+   
+}}
+@media only screen and (min-width: 1024px) {
+
+.product{
+    width: 1266px;
+    margin:  0 auto;
+     margin-top: 40px ;
+    padding-bottom: 50px;
+}
+.product-title{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.product-title h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.product-title p{
+    
+   color: gray;
+}
+
+.product-list {
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 10px;
+}
+
+.product-item{
+    width: 100%;
+    background-color: white;
+    height: 422px;
+    cursor: pointer;
+   
+}
+.product-item-center{
+     width: 256px;
+     margin: 0 auto;
+    padding-top: 20px;
+     position: relative;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+}
+.product-item img{
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.product-item-center p{
+    color: rgb(156, 157, 158);
+   font-family: 'Roboto Condensed';
+   margin: 10px 0;
+   font-size: 14px;
+
+}
+.product-item-center h4 {
+    font-size: 16px;
+}
+
+.sale{
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.curren-price{
+    text-decoration: none !important;
+    color: orange;
+
+}
+.product-price{
+  overflow: hidden;
+  transition: 2s;
+   animation: beffoprice .5s forwards;
+   margin-top: 15px;
+ 
+}
+.product-item-center:hover  .product-price{
+   animation: setprice .5s forwards;
+   
+}
+
+@keyframes setprice{
+    from{
+        opacity: 1;
+        height: 30px;
+    }
+    to{
+        opacity: 0;
+        height: 0;
+    }
+}
+@keyframes beffoprice{
+    from{
+        opacity: 0;
+        height: 0;
+    }
+    
+    to{
+      opacity: 1;
+        height: 30px;
+    }
+    
+}
+
+.product-price-add{
+   opacity: 0;
+   transition: .5;
+   font-size: 14px;
+   position: relative;
+}
+
+.product-item-center:hover  .product-price-add{
+  opacity: 1;
+   
+}
+
+
+.product-tab{
+    display: flex;
+    transition: 2s;
+}
+.tab1{
+    width: 98px;
+    height: 1px;
+    background-color: black;
+      animation: settabprice .5s forwards;
+   
+    
+}
+
+
+
+
+.product-price-add:hover .tab1
+{
+   
+    animation: tabprice .5s forwards;
+}
+
+@keyframes tabprice{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        width: 0;
+    }
+}
+@keyframes settabprice{
+    from{
+        opacity: 0;
+        width: 0;
+    }
+    
+    to{
+        opacity: 1;
+    }
+    
+}
+
+.product-icon {
+    position: absolute;
+   right:0;
+    top: 21px;
+}
+.head,.compare,.parameter{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    opacity: 0;
+}
+.head{
+   animation: setproducticon .9s forwards;
+}
+
+.compare{
+   animation: setproducticon .7s forwards;
+}
+
+.parameter{
+   animation: setproducticon .5s forwards;
+}
+.product-item-center:hover .head{
+    
+    animation: producticon .5s forwards;
+}
+.product-item-center:hover .compare{
+    
+    animation: producticon .7s forwards;
+
+}
+
+.product-item-center:hover .parameter{
+    
+    animation: producticon .9s forwards;
+    
+}
+
+@keyframes producticon{
+   from{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+    to{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+}
+
+@keyframes setproducticon{
+    from{
+        opacity: 1;
+       transform: translateX(0) ;
+    }
+    to{
+        opacity: 0; 
+        transform: translateX(50px); 
+    }
+   
+}}
+

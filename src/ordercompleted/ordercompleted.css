@@ -1,0 +1,300 @@
+   .completed-order-check{
+width: 400px;
+margin:  0 auto;
+    }
+.container-completed-order-check{
+    width: 400px;
+    margin: 50px auto;
+    display: block;
+   
+}
+.container-completed-order-check .cart-container-title-action{
+    width: 200px;
+    text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+    width: 150px;
+}
+.container-completed-order-check .cart-container-title-quancity{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-price{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-left{
+    width: 400px;
+    
+    margin-bottom: 10px;
+}
+
+.container-completed-order-check .cart-container-right{
+    width: 400px;
+    border: 1px solid gray;
+    height: 295px;
+   
+}
+.container-completed-order-check .cart-container-right h3{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 24px;
+}
+.container-completed-order-check .cart-container-right ul{
+   padding-left: 40px;
+   width: 360px;
+}
+.container-completed-order-check .cart-container-right ul li{
+  height: 30px;
+
+  margin-bottom:10px ;
+  color: rgb(145, 141, 141);
+  border-bottom: 1px dotted gray;
+}
+.container-completed-order-check .cart-container-right ul li:last-child{
+ 
+
+  margin-bottom:30px ;
+  color: rgb(145, 141, 141);
+ border: none;
+}
+
+.model-order {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-order-item{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.modal-order-item-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.modal-order-item-click button{
+    margin: 20px 0;
+    width: 120px;
+    height: 35px;
+    background: rgb(15, 26, 37);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.modal-order-item-click button:hover{
+   background-color: orange;
+}
+
+@media only screen and (min-width: 768px) {
+    .completed-order-check{
+width: 800px;
+margin:  0 auto;
+    }
+.container-completed-order-check{
+    width: 750px;
+    margin: 50px auto;
+    display: block;
+   
+}
+.container-completed-order-check .cart-container-title-action{
+    width: 200px;
+    text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+    width: 150px;
+}
+.container-completed-order-check .cart-container-title-quancity{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-price{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-left{
+    width: 750px;
+    
+    margin-bottom: 10px;
+}
+
+.container-completed-order-check .cart-container-right{
+    width: 280px;
+    border: 1px solid gray;
+    height: 295px;
+   
+}
+.container-completed-order-check .cart-container-right h3{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 24px;
+}
+.container-completed-order-check .cart-container-right ul{
+   padding-left: 40px;
+   width: 240px;
+}
+.container-completed-order-check .cart-container-right ul li{
+  height: 30px;
+
+  margin-bottom:10px ;
+  color: rgb(145, 141, 141);
+  border-bottom: 1px dotted gray;
+}
+.container-completed-order-check .cart-container-right ul li:last-child{
+ 
+
+  margin-bottom:30px ;
+  color: rgb(145, 141, 141);
+ border: none;
+}
+
+.model-order {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-order-item{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.modal-order-item-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.modal-order-item-click button{
+    margin: 20px 0;
+    width: 120px;
+    height: 35px;
+    background: rgb(15, 26, 37);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.modal-order-item-click button:hover{
+   background-color: orange;
+}}
+@media only screen and (min-width: 1024px) {
+    .completed-order-check{
+ width: 1515px;
+ margin:  0 auto;
+    }
+.container-completed-order-check{
+   width: 1270px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container-completed-order-check .cart-container-title-action{
+    width: 200px;
+    text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+    width: 150px;
+}
+.container-completed-order-check .cart-container-title-quancity{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-price{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-title-total{
+   text-align: center;
+}
+.container-completed-order-check .cart-container-left{
+    width: 950px;
+    
+    margin-bottom: 50px;
+}
+
+.container-completed-order-check .cart-container-right{
+    width: 280px;
+    border: 1px solid gray;
+    height: 295px;
+   
+}
+.container-completed-order-check .cart-container-right h3{
+    text-align: center;
+    margin: 25px 0;
+    font-size: 24px;
+}
+.container-completed-order-check .cart-container-right ul{
+   padding-left: 40px;
+   width: 240px;
+}
+.container-completed-order-check .cart-container-right ul li{
+  height: 30px;
+
+  margin-bottom:10px ;
+  color: rgb(145, 141, 141);
+  border-bottom: 1px dotted gray;
+}
+.container-completed-order-check .cart-container-right ul li:last-child{
+ 
+
+  margin-bottom:30px ;
+  color: rgb(145, 141, 141);
+ border: none;
+}
+
+.model-order {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-order-item{
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.modal-order-item-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.modal-order-item-click button{
+    margin: 20px 0;
+    width: 120px;
+    height: 35px;
+    background: rgb(15, 26, 37);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.modal-order-item-click button:hover{
+   background-color: orange;
+}}

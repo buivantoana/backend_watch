@@ -1,0 +1,221 @@
+ .container-profile-all{
+       width: 400px;
+       margin:  0 auto;
+    }
+.container-profile{
+    width:400px;
+    margin: 40px auto;
+    
+
+}
+.container-profile h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.container-profile-item{
+    width: 400px;
+    margin: 20px auto;
+    
+    border: 1px solid gray;
+   
+}
+.container-profile-item-flex{
+     display: flex;
+    justify-content: space-between;
+   
+    padding: 20px;
+}
+.container-profile-item p {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+.container-profile-item h5{
+    color: orange;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.container-profile-item-left,
+.container-profile-item-right{
+    width: 360px;
+    
+   
+}
+.container-profile-item-left{
+     padding-right: 20px;
+     border-right: 1px solid gray;
+}
+.container-profile-item-right{
+     padding-left: 20px;
+    
+}
+
+.container-profile-item-button {
+    text-align: center;
+    padding: 15px 0;
+}
+.container-profile-item-button  button{
+   width: 120px;
+   height: 39px;
+   border: none;
+   background-color: rgb(2, 2, 64);
+   color:  orange ;
+   font-weight: 700;
+   transition: .5s;
+   cursor: pointer;
+}
+.container-profile-item-button  button:hover{
+   
+   background-color: orange;
+   color:  white ;
+   
+}
+@media only screen and (min-width:768px) {
+    .container-profile-all{
+       width: 800px;
+       margin:  0 auto;
+    }
+.container-profile{
+    width:750px;
+    margin: 40px auto;
+    
+
+}
+.container-profile h2{
+    text-align: center;
+    font-size: 44px;
+}
+
+.container-profile-item{
+    width: 560px;
+    margin: 20px auto;
+    
+    border: 1px solid gray;
+   
+}
+.container-profile-item-flex{
+     display: flex;
+    justify-content: space-between;
+   
+    padding: 20px;
+}
+.container-profile-item p {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+.container-profile-item h5{
+    color: orange;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.container-profile-item-left,
+.container-profile-item-right{
+    width: 360px;
+    
+   
+}
+.container-profile-item-left{
+     padding-right: 20px;
+     border-right: 1px solid gray;
+}
+.container-profile-item-right{
+     padding-left: 20px;
+    
+}
+
+.container-profile-item-button {
+    text-align: center;
+    padding: 15px 0;
+}
+.container-profile-item-button  button{
+   width: 120px;
+   height: 39px;
+   border: none;
+   background-color: rgb(2, 2, 64);
+   color:  orange ;
+   font-weight: 700;
+   transition: .5s;
+   cursor: pointer;
+}
+.container-profile-item-button  button:hover{
+   
+   background-color: orange;
+   color:  white ;
+   
+}}
+@media only screen and (min-width:1024px) {
+    .container-profile-all{
+       width: 1515px;
+       margin:  0 auto;
+    }
+.container-profile{
+    width: 1270px;
+    margin: 40px auto;
+    
+
+}
+.container-profile h2{
+    text-align: center;
+    font-size: 44px;
+}
+
+.container-profile-item{
+    width: 560px;
+    margin: 20px auto;
+    
+    border: 1px solid gray;
+   
+}
+.container-profile-item-flex{
+     display: flex;
+    justify-content: space-between;
+   
+    padding: 20px;
+}
+.container-profile-item p {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid grey;
+}
+.container-profile-item h5{
+    color: orange;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.container-profile-item-left,
+.container-profile-item-right{
+    width: 360px;
+    
+   
+}
+.container-profile-item-left{
+     padding-right: 20px;
+     border-right: 1px solid gray;
+}
+.container-profile-item-right{
+     padding-left: 20px;
+    
+}
+
+.container-profile-item-button {
+    text-align: center;
+    padding: 15px 0;
+}
+.container-profile-item-button  button{
+   width: 120px;
+   height: 39px;
+   border: none;
+   background-color: rgb(2, 2, 64);
+   color:  orange ;
+   font-weight: 700;
+   transition: .5s;
+   cursor: pointer;
+}
+.container-profile-item-button  button:hover{
+   
+   background-color: orange;
+   color:  white ;
+   
+}}
